@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: green;
+}
+.navigation h1 {
+    color: white;
+}
+.navigation nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.navigation nav ul li a {
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+    stroke: 2px solid black;
+}
+#dashboard, #upload, #viewgames {
+    margin-top: 8%;
+    margin-left: 8%;
+    padding: 50px;
+}
